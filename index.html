@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+
+
+    <div class="loading">
+        <div class="loader"></div>
+    </div>
+
+    
+<div class="sidebar ">
+    <div class="sidebar-Inner d-flex flex-column justify-content-between  ">
+        <div >
+            <ul class="list">
+                <li onclick="displaySaerch()">Search</li>
+                <li onclick="category()" >Categories</li>
+                <li onclick="area()" > Area</li>
+                <li onclick="ingredient()">Ingredients </li>
+                <li  onclick="contactUs()">Contact Us</li>
+                 
+                
+            </ul>
+            
+        </div>
+        <div class="CopyRight">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+            
+            <p>Copyright Â© 2019 All Rights Reserved.</p>
+
+        </div>
+
+    </div>
+    <div class="outList d-flex justify-content-between align-items-center flex-column   ">
+        <img class="mt-4 w-75 " src="images/logo.png" alt="logo">
+
+        <div id="openIcon">
+            <p class="openn "> 
+                <i id="openi" class="fa-solid fa-bars fs-2 "></i>
+            
+        </p>
+        </div>
+
+        <div class="icons mb-4 d-flex flex-column">
+            <a href="" ><i class="fa-solid fa-globe my-1"></i></a>
+            <a href=""> <i class="fa-solid fa-share-nodes my-1"></i></a>
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="home">
+          <div class="container my-5 m-auto">
+            <div class="row " id="dataHome">
+               
+            </div>
+          </div>
+    </div>
+    <!-- search  -->
+
+    <div class="search d-none" id="search">
+        <div class="container w-75">
+         <div class="row " id="searchInput">
+
+             <div class="col-md-6"><input type="text" class="form-control bg-transparent" placeholder="Search By Name " id="searchInput" value=""></div>
+             <div class="col-md-6"><input type="text" class="form-control bg-transparent "placeholder="Search By First Name" value=""></div>
+         </div>
+         
+         
+        </div>
+     </div>
+<!-- contact Us  -->
+
+    <div class="contact d-none" id="contact">
+        <div class="container w-75">
+         <div class="row " id="contactRow">
+
+             <div class="col-md-6 my-3"><input type="text" class="form-control " placeholder="Enter Your Name " ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Email" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Phone" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Age" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Enter Your Password" ></div>
+             <div class="col-md-6 my-3"><input type="text" class="form-control "placeholder="Repassword" ></div> 
+             <div class="col-md-12 my-3 text-center"><button class="btn btn-outline-danger "id="tran">Submit</button></div>
+            
+         </div>
+        
+         
+        </div>
+
+     </div>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
